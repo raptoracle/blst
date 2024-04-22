@@ -6,10 +6,10 @@
     "list"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/blst.git",
-  "homepage": "https://github.com/bcoin-org/blst",
+  "repository": "git://github.com/raptoracle/blst.git",
+  "homepage": "https://github.com/raptoracle/blst",
   "bugs": {
-    "url": "https://github.com/bcoin-org/blst/issues"
+    "url": "https://github.com/raptoracle/blst/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
   "main": "./lib/blst.js",
@@ -19,11 +19,11 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "bsert": "~0.0.12"
+    "bsert": "git+https://github.com/raptoracle/bsert.git#semver:~0.0.13"
   },
   "devDependencies": {
-    "bmocha": "^2.1.8",
-    "bts-type-deps": "^0.0.3"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0",
+    "bts-type-deps": "git+https://github.com/raptoracle/bts-type-deps.git#semver:=0.0.3"
   },
   "engines": {
     "node": ">=8.0.0"
